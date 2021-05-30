@@ -8,9 +8,8 @@ import org.springframework.stereotype.Service;
 import kodlamaio.hrms.business.abstracts.JobsService;
 import kodlamaio.hrms.dataAccess.abstracts.JobDao;
 import kodlamaio.hrms.entities.concretes.Jobs;
-import lombok.Data;
 
-@Data
+
 @Service
 public class JobsManager implements JobsService {
 
